@@ -206,3 +206,60 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* Seção Equipa */
+/* Define o estilo dos títulos h2 da secção "nossa-equipa" e "servicos" */
+#nossa-equipa h2,
+#servicos h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    /* Aumenta o tamanho da fonte para maior destaque */
+    /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo para o container que agrupa todos os membros da equipa */
+.equipa-container {
+    display: flex;
+    /* Organiza os elementos em linha (flexível) */
+    flex-wrap: wrap;
+    /* Permite que os elementos passem para a linha abaixo em ecrãs pequenos */
+    justify-content: center;
+    /* Centraliza os elementos horizontalmente */
+}
+
+/* Estilo individual de cada membro da equipa */
+.pessoa {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+    /* Define uma largura fixa para cada bloco */
+    /* Espaçamento entre os blocos */
+    /* Espaço interno dentro do bloco */
+    /* Cor de fundo cinzenta clara */
+    /* Bordas ligeiramente arredondadas */
+    /* Centraliza o conteúdo (imagem, nome, cargo) */
+}
+
+/* Estilo para a imagem de cada pessoa */
+.pessoa img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* Largura fixa da imagem */
+    /* Altura fixa da imagem */
+    /* Transforma a imagem num círculo */
+    /* Espaço entre a imagem e o nome */
+}
+
+section {
+    padding: 100px 40px;
+    text-align: center;
+    min-height: 100vh;
+    /* Espaçamento interno nas secções (superior/inferior e laterais) */
+    /* Centraliza todo o conteúdo textual por padrão */
+    /* Garante que cada secção tenha pelo menos a altura de uma janela inteira */
+}
