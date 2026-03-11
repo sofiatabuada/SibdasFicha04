@@ -15,6 +15,9 @@
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome (local) -->
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+
     <!-- estilos da página -->
     <link rel="stylesheet" href="assets/css/estilos.css">
 
@@ -35,6 +38,7 @@
             <a href="#servicos">Serviços</a>
             <a href="#aula-grupo">Aulas de Grupo</a>
             <a href="#precario">Preçário</a>
+            <a href="#contacto">Contacto</a>
         </div>
         <!-- Área Cliente -->
         <div class="nav-cliente">
@@ -54,7 +58,7 @@
         </div>
     </section>
 
-
+    
     <!-- Seção Nossa Equipa -->
     <section id="nossa-equipa">
         <h2>A Nossa Equipa</h2>
@@ -79,66 +83,121 @@
 
 
     <!-- Seção Serviços -->
-    <section class="container-texto-generico" id="servicos">
-
-        <article>
-            <h2>Serviços</h2>
-            <p>
-                O ISEP Ginásio oferece uma variedade de serviços orientados para a melhoria da condição física
-                e qualidade de vida, incluindo treino personalizado, acompanhamento profissional e programas
-                de treino adaptados a diferentes níveis de experiência.
-            </p>
-        </article>
-
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <i class="fa-solid fa-dumbbell fa-3x"></i>
+                <h3>Treino Personalizado</h3>
+                <p>Programas de treino individualizados para atingir seus objetivos.</p>
+            </div>
+            <div class="servico">
+                <i class="fa-solid fa-people-group fa-3x"></i>
+                <h3>Aulas de Grupo</h3>
+                <p>Diversas modalidades para todos os níveis de condicionamento físico.</p>
+            </div>
+            <div class="servico">
+                <i class="fa-solid fa-person-praying fa-3x"></i>
+                <h3>Pilates</h3>
+                <p>Fortalecimento do core e melhora da postura.</p>
+            </div>
+            <div class="servico">
+                <i class="fa-solid fa-hand-holding-medical fa-3x"></i>
+                <h3>Fisioterapia</h3>
+                <p>Recuperação e prevenção de lesões.</p>
+            </div>
+            <div class="servico">
+                <i class="fa-solid fa-apple-whole fa-3x"></i>
+                <h3>Nutrição</h3>
+                <p>Planos alimentares personalizados para otimizar seus resultados.</p>
+            </div>
+        </div>
     </section>
 
 
     <!-- Seção Aulas de Grupo -->
-    <section class="container-texto-generico" id="aula-grupo">
-
-        <article>
-            <h2>Aulas de Grupo</h2>
-            <p>
-                Participa nas nossas aulas de grupo e treina num ambiente dinâmico e motivador.
-                Disponibilizamos diferentes modalidades orientadas por instrutores especializados.
-            </p>
-        </article>
-
+    <section id="aula-grupo">
+        <h2>Modalidades de Aulas de Grupo</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <i class="fas fa-child fa-3x"></i>
+                <h3>Pilates</h3>
+                <p>Programas de treino individualizados para atingir seus objetivos.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-running fa-3x"></i>
+                <h3>Clube de Corrida</h3>
+                <p>Diversas modalidades para todos os níveis de condicionamento físico.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-dumbbell fa-3x"></i>
+                <h3>CrossFit</h3>
+                <p>Fortalecimento do core e melhora da postura.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-music fa-3x"></i>
+                <h3>Zumba</h3>
+                <p>Recuperação e prevenção de lesões.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-shoe-prints fa-3x"></i>
+                <h3>Step</h3>
+                <p>Planos alimentares personalizados para otimizar seus resultados.</p>
+            </div>
+        </div>
     </section>
 
 
     <!-- Seção Preçário -->
-    <section class="container-texto-generico" id="precario">
+    <section id="precario">
+        <h2>Nossos Pacotes de Treino</h2>
+        <div class="pacotes-container">
+            <div class="pacote">
+                <h3>Pacote Essencial</h3>
+                <p class="preco">€50/mês</p>
+                <ul>
+                    <li>2x Treino Personalizado por semana</li>
+                    <li>Acesso às Aulas de Grupo</li>
+                </ul>
+                <a href="#contacto" class="button">Contratar</a>
+            </div>
+            <div class="pacote">
+                <h3>Pacote Premium</h3>
+                <p class="preco">€80/mês</p>
+                <ul>
+                    <li>3x Treino Personalizado por semana</li>
+                    <li>Acesso ilimitado às Aulas de Grupo</li>
+                    <li>1x Sessão de Pilates por semana</li>
+                </ul>
+                <a href="#contacto" class="button">Contratar</a>
+            </div>
+            <div class="pacote">
+                <h3>Pacote VIP</h3>
+                <p class="preco">€120/mês</p>
+                <ul>
+                    <li>Treino Personalizado Ilimitado</li>
+                    <li>Acesso ilimitado às Aulas de Grupo</li>
+                    <li>2x Sessões de Pilates por semana</li>
+                    <li>1x Consulta de Nutrição por mês</li>
+                </ul>
+                <a href="#contacto" class="button">Contratar</a>
+            </div>
+        </div>
+    </section>
 
-        <article>
-            <h2>Plano Base</h2>
-            <p>
-                Ideal para quem pretende treinar de forma autónoma. Inclui acesso à sala de musculação
-                e área de cardio em horário livre.
-                <br><br>
-                <strong>Mensalidade: 29,90€</strong>
-            </p>
-        </article>
-
-        <article>
-            <h2>Plano Plus</h2>
-            <p>
-                Inclui todos os benefícios do Plano Base, com acesso às aulas de grupo e acompanhamento
-                mensal personalizado por um instrutor.
-                <br><br>
-                <strong>Mensalidade: 39,90€</strong>
-            </p>
-        </article>
-
-        <article>
-            <h2>Plano Premium</h2>
-            <p>
-                Inclui acesso total às instalações, aulas de grupo ilimitadas e sessões de treino personalizado.
-                <br><br>
-                <strong>Mensalidade: 59,90€</strong>
-            </p>
-        </article>
-
+    <!--Contacto-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Entre em contacto conosco para agendar uma consulta ou tirar suas dúvidas.</p>
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
     </section>
 
     <!-- Rodapé -->
