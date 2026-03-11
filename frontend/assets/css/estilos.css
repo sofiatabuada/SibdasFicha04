@@ -6,7 +6,7 @@
     /* Remove preenchimento padrão */
     box-sizing: border-box;
     /* Inclui a borda e o preenchimento no cálculo do tamanho */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web';
     /* Define a fonte padrão */
 }
 
@@ -165,4 +165,44 @@
     /* Espaçamento interno (superior/inferior e laterais) */
     /* Centraliza o texto dentro dos artigos */
     /* Garante altura mínima de uma janela (ecrã) */
+}
+
+/* Seção "Quem Somos" */
+#quem-somos {
+    text-align: center;
+    /* Centra todo o conteúdo horizontalmente */
+    padding: 100px 0;
+    /* Espaçamento superior e inferior de 100px */
+}
+
+.quem-somos-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quem-somos-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.quem-somos-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.quem-somos-content img {
+    width: 700px;
+    height: 165px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+.button {
+    display: inline-block;
+    background-color: #aaaaaa;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
